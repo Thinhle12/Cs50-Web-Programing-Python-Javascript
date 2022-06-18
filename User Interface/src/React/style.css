@@ -1,0 +1,16 @@
+#app{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+#problem{
+    font-size: 72px;
+}
+.incorrect{
+    color: red;
+}
+#win{
+    text-align: center;
+    color: greenyellow;
+    font-size: 200px;
+}
