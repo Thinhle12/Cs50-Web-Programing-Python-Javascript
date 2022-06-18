@@ -1,0 +1,36 @@
+@keyframes move{
+    0%{
+        left: 0%;
+        color: blue;
+        opacity: 1;
+    }
+    50%{
+        left: 50%;
+        color: red;        
+    }
+    100%{
+        left: 0%;
+        color: rgb(30, 171, 44);    
+        opacity: 0;    
+    }
+}
+h1{
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
