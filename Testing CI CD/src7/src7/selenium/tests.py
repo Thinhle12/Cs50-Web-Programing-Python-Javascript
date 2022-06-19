@@ -9,7 +9,7 @@ def file_uri(filename):
     return pathlib.Path(os.path.abspath(filename)).as_uri()
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome('D:\OneDrive\Document\work\CS50 web programing\chromedriver_win32\chromedriver.exe')
 
 
 class WebpageTests(unittest.TestCase):
